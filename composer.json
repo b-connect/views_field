@@ -1,14 +1,10 @@
 {
   "name": "drupal/views_field",
   "type": "drupal-module",
-  "description": "My Awesome Module",
+  "description": "Drupal link field",
   "keywords": ["Drupal"],
   "license": "GPL-2.0+",
-  "homepage": "https://www.drupal.org/project/views_field",
+  "homepage": "https://github.com/b-connect/views_field",
   "minimum-stability": "dev",
-  "support": {
-    "issues": "https://www.drupal.org/project/issues/views_field",
-    "source": "http://cgit.drupalcode.org/views_field"
-  },
   "require": { }
 }

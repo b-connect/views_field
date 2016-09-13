@@ -16,7 +16,7 @@ function views_field_help($route_name, RouteMatchInterface $route_match) {
     case 'help.page.views_field':
       $output = '';
       $output .= '<h3>' . t('About') . '</h3>';
-      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      $output .= '<p>' . t('Drupal views field') . '</p>';
       return $output;
 
     default:

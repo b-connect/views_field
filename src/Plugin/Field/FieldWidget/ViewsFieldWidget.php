@@ -163,11 +163,8 @@ class ViewsFieldWidget extends WidgetBase {
     $view->initHandlers();
     $form = [];
 
-    // $form_state->setUserInput($view->getExposedInput());
-
     // Let form plugins know this is for exposed widgets.
     $form_state->set('exposed', TRUE);
-
     $form['settings'] = [];
 
     // Go through each handler and let it generate its exposed widget.
